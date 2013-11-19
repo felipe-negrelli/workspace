@@ -11,6 +11,7 @@ import br.ifes.edu.poo1.application.GUI;
 
 public class Tabuleiro extends JPanel {
 	
+
 	CasaTabuleiro[][] casasTabuleiro;
 
 	public Tabuleiro(GUI pai) {
