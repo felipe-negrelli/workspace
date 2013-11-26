@@ -27,5 +27,4 @@ public class CalcTest {
 	{
 		Integer result = c.dividir(30, 0);
 	}
-
 }

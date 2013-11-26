@@ -1,6 +1,8 @@
 package br.ifes.edu.poo1.model;
 
-public class PecaXadrez {
+import java.util.List;
+
+public abstract class Peca implements PecaXadrez{
 	
 	private Posicao posicao;
 	private boolean preto;
@@ -14,7 +16,7 @@ public class PecaXadrez {
 		this.emJogo = emJogo;
 	}
 
-	public PecaXadrez(Posicao posicao, boolean ehPreto)
+	public Peca(Posicao posicao, boolean ehPreto)
 	{
 		this.posicao = posicao;
 		this.preto = ehPreto;
@@ -39,6 +41,16 @@ public class PecaXadrez {
 	public void moverPeca(Posicao novaPosicao)
 	{
 		this.posicao = novaPosicao;
+	}
+
+	public List<CasaTabuleiro> getMovimentosPossiveis() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void mover(CasaTabuleiro novoPosicao) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
