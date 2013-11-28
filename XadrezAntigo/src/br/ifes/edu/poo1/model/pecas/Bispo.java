@@ -9,5 +9,4 @@ public class Bispo extends Peca {
 		super(posicao, ehPreto);
 		// TODO Auto-generated constructor stub
 	}
-
 }

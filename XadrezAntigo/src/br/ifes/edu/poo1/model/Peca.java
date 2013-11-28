@@ -6,14 +6,14 @@ public abstract class Peca implements PecaXadrez{
 	
 	private Posicao posicao;
 	private boolean preto;
-	private boolean emJogo;
+	private int quantMovimentos;
 	
-	public boolean getEmJogo() {
-		return emJogo;
-	}
-
-	public void setEmJogo(boolean emJogo) {
-		this.emJogo = emJogo;
+	public boolean getMoveu() {
+		if(this.quantMovimentos > 0)
+		{
+			return true;
+		}
+		return false;
 	}
 
 	public Peca(Posicao posicao, boolean ehPreto)
@@ -52,5 +52,4 @@ public abstract class Peca implements PecaXadrez{
 		// TODO Auto-generated method stub
 		
 	}
-
 }

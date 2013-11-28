@@ -16,7 +16,7 @@ public class Peao extends Peca {
 	}
 
 	public Peao(Posicao posicao, boolean ehPreto)
-	{		
+	{
 		super(posicao, ehPreto);
 	}
 }

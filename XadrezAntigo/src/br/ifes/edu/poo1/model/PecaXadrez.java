@@ -11,8 +11,6 @@ public interface PecaXadrez {
 	
 	public void mover(CasaTabuleiro novoPosicao);
 	
-	public boolean getEmJogo();
-	
-	public void setEmJogo(boolean emJogo);
+	public boolean getMoveu();
 
 }
